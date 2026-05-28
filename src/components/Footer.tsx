@@ -30,7 +30,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 pt-6 pb-2 flex flex-col md:flex-row items-center justify-between gap-4">
         {/* Left */}
         <div className="text-gray-400 font-heading font-semibold text-sm">
-          © 2023-2024 TradeHub – F-Gex Groups. All rights reserved.
+          © 2025-2026 TradeHub – F-Gex Groups. All rights reserved.
         </div>
 
         {/* Right */}
