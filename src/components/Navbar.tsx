@@ -73,12 +73,18 @@ export default function Navbar() {
     }`}>
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         {/* Logo */}
-        <Link to="/" className="group">
+        <Link to="/" className="flex items-center space-x-3 group">
           <img
             src="/logo-shield.png"
             alt="F-Gex Logo"
             className="h-12 w-auto object-contain drop-shadow-lg group-hover:drop-shadow-[0_0_14px_rgba(16,185,129,0.55)] transition-all duration-300"
           />
+          <div className="flex flex-col">
+            <span className="font-heading font-bold text-lg text-white leading-none tracking-tight">F-Gex Groups</span>
+            <span className="font-heading font-medium text-[9px] text-emerald-400 leading-none tracking-widest mt-1.5">
+              {isSolutions ? 'TECHNOLOGY DIVISION' : isTradeHub ? 'FINANCIAL DIVISION' : 'ECOSYSTEM'}
+            </span>
+          </div>
         </Link>
 
         {/* Desktop Menu */}
