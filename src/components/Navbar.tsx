@@ -81,9 +81,6 @@ export default function Navbar() {
           />
           <div className="flex flex-col">
             <span className="font-heading font-bold text-lg text-white leading-none tracking-tight">F-Gex Groups</span>
-            <span className="font-heading font-medium text-[9px] text-emerald-400 leading-none tracking-widest mt-1.5">
-              {isSolutions ? 'TECHNOLOGY DIVISION' : isTradeHub ? 'FINANCIAL DIVISION' : 'ECOSYSTEM'}
-            </span>
           </div>
         </Link>
 
