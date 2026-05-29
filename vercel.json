@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.f-gexgroups.vercel.app"
+        }
+      ],
+      "destination": "https://f-gexgroups.vercel.app/:path*",
+      "permanent": true
+    }
+  ]
+}
